@@ -1,4 +1,4 @@
-package com.cawbutler.springcloud.netflix.config.client.configurations;
+package com.cawbutler.springcloud.netflix.eureka.server.configurations;
 
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.context.annotation.Configuration;

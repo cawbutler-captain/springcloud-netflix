@@ -1,4 +1,4 @@
-package com.cawbutler.springcloud.netflix.config.client.controller;
+package com.cawbutler.springcloud.netflix.eureka.consumer.controller;
 
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;

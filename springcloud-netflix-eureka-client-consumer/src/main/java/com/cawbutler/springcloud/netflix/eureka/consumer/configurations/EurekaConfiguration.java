@@ -1,6 +1,7 @@
-package com.cawbutler.springcloud.netflix.config.client.configurations;
+package com.cawbutler.springcloud.netflix.eureka.consumer.configurations;
 
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -9,4 +10,9 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 public class EurekaConfiguration {
 
+    @Bean
+    @LoadBalanced
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
 }

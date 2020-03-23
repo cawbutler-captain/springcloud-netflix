@@ -1,4 +1,4 @@
-package com.cawbutler.springcloud.netflix.config.client.controller;
+package com.cawbutler.springcloud.netflix.eureka.provider.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
